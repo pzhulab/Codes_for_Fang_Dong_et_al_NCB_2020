@@ -22,4 +22,4 @@ script "Rscript/06.Codes_for_Figure2.R" is used for generating Figure 2.
 
 script "Rscript/07.Codes_for_Figure3.R" is used for generating Figure 3c-g.
 
-
+The file containing raw counts, normalized expression of genes on all cell before and after quality control is stored in directory named input.
