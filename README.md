@@ -8,18 +8,18 @@ If you use the scripts, please cite the paper!
 
 Note: Due to the size of the expression data, we are not allowed to upload the data files to github. Therefore this repository only show you the codes we used to analyze the sequencing data in the paper. We are attempting to upload the data files by dividing them into small files, then you will completely reproduce the reuslts in our paper. Thanks for your interesting in our work!
 
-script "Rscript/01.Quality_control.R" is used for quality control on cells and genes.
+Detials of scripts:
 
-script "Rscript/02.Find_genes_for_clustering.R" is used for finding genes contributing most in distinguish homeostasis cell clusters.
+- Quality control: `01.Quality_control.R`
 
-script "Rscript/03.Construct_tSNE_map.R" is used for constructing homeostasis and transplantation cells differentiation tsne map.
+- Gene selection for cell clustering: `02.Find_genes_for_clustering.R`
 
-script "Rscript/04.Classify_transplantation_cells.R" is used for classifying of transplantation cells to homeostasis cell clusters.
+- Dimension reduction and tSNE visualization of single cell data: `03.Construct_tSNE_map.R`
 
-script "Rscript/05.Codes_for_Figure1.R" is used for generating Figures 1b-d and 1f.
+- Classification of cells after transplantation based on transcriptome reference constructed in homeostasis: `4.Classify_transplantation_cells.R`
 
-script "Rscript/06.Codes_for_Figure2.R" is used for generating Figure 2.
+- Figure 1b-d,f: `05.Codes_for_Figure1.R`
 
-script "Rscript/07.Codes_for_Figure3.R" is used for generating Figure 3c-g.
+- Figure 2: `06.Codes_for_Figure2.R`
 
-The file contains raw counts, normalized expression matrix (row for gene and column for cell) and meta table of cells imformation is stored in directory named input.
+- Figure 3c-g: `07.Codes_for_Figure3.R`
