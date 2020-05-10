@@ -8,7 +8,7 @@ If you use the scripts, please cite the paper!
 
 Note: Due to the size of the expression data, we are not allowed to upload the data files to github. Therefore this repository only show you the codes we used to analyze the sequencing data in the paper. We are attempting to upload the data files by dividing them into small files, then you will completely reproduce the reuslts in our paper. Thanks for your interesting in our work!
 
-Detials of scripts:
+Details of scripts:
 
 - Quality control: `01.Quality_control.R`
 
