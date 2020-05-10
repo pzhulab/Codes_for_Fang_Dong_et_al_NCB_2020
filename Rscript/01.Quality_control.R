@@ -3,10 +3,8 @@
 rm(list=ls())
 pwd <- getwd()
 ### the number of transplantation cells we had used for this step 
-### was more than 2879, containing transplanted for early stage (one 
-### week) and the time longer. This is the reason the transplantation
-### cells number remain after quality control is not equal to 1031 that
-### remain for further analysis.
+### was more than 2879. This is the reason the cell number remain 
+### on this step is not equally to 2301.
 ### 1. Quality control on cells and genes 
 ### for homeostasis and transplantation cells respectively
 ### load raw cell and meta data
