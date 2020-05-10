@@ -1,4 +1,4 @@
-### Generating figure 3b-g
+### Generating figure 3c-g
 
 ### figure 3b
 rm(list=ls())
